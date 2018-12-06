@@ -1,0 +1,104 @@
+.features
+  padding-top: 65px
+  background-color: #f4f4f4
+  position: relative
+
+  li
+    display: flex
+    flex-direction: row
+    padding-right: 15px
+
+    margin-top: 35px
+    h3
+      color: #323232
+      font-family: $Montserrat
+      font-size: 16px
+    p
+      color: #848e97
+      font-family: $Montserrat
+      font-size: 14px
+  h2
+    color: #8d81ac
+    font-family: $Montserrat
+    font-size: 48px
+    font-weight: 700
+.icon1
+  background: url("../img/icon1.png")
+    repeat: no-repeat
+    position: center center
+  width: 350px
+  height: 64px
+  display: block
+  transition: 0.4s
+  &:hover
+    background: url("../img/icon1_hover.png")
+      repeat: no-repeat
+      position: center center
+
+.icon2
+  background: url("../img/icon2.png")
+    repeat: no-repeat
+    position: center center
+  width: 350px
+  height: 80px
+  display: block
+  transition: 0.4s
+  &:hover
+    background: url("../img/icon2_hover.png")
+      repeat: no-repeat
+      position: center center
+
+.icon3
+  background: url("../img/icon3.png")
+    repeat: no-repeat
+    position: center center
+  width: 350px
+  height: 90px
+  display: block
+  transition: 0.4s
+  &:hover
+    background: url("../img/icon3_hover.png")
+      repeat: no-repeat
+      position: center center
+
+.icon4
+  background: url("../img/icon4.png")
+    repeat: no-repeat
+    position: center center
+  width: 350px
+  height: 80px
+  display: block
+  transition: 0.4s
+  &:hover
+    background: url("../img/icon4_hover.png")
+      repeat: no-repeat
+      position: center center
+
+
+.hidenImg
+  background: url("../img/layers.png")
+
+    repeat: no-repeat
+  height: 100%
+  width: 100%
+  overflow-y: auto
+
+@media only screen and (min-device-width: 350px)
+  .showImg
+    background: url("../img/layers.png")
+     repeat: no-repeat
+    min-width: 350px
+    max-width: 990px
+    height: 100vh
+
+@media only screen and (min-device-width: 990px)
+  .showImg
+    background: url("../img/layers.png")
+      repeat: no-repeat
+    display: none
+
+@media only screen and (max-device-width: 990px)
+  .hidenImg
+    display: none
+
+

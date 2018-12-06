@@ -1,0 +1,121 @@
+.price
+  background: url("../img/price_bg.png") #4b3b4e no-repeat center center
+    size: cover
+  text-align: center
+  padding-top: 15px
+
+
+
+@media only screen and (max-device-width: 576px)
+  .price
+    padding-bottom: 30px
+  h2
+    color: #ffffff
+    font-family: $Montserrat
+    font-size: 48px
+    font-weight: 700
+
+@media only screen and (min-device-width: 577px)
+  .price
+    padding-top: 30px
+    padding-bottom: 70px
+    h2
+      color: #ffffff
+      font-family: $Montserrat
+      font-size: 48px
+      font-weight: 700
+
+
+@media only screen and (min-device-width: 320px)
+  .price
+
+      a
+        display: block
+        width: 160px
+        height: 42px
+        background-color: rgba(255,255,255,0.06)
+        border-radius: 50px
+        text-decoration: none
+        padding: 10px
+        position: absolute
+        bottom: 35px
+        margin-left: 50px
+
+
+        span
+          color: #ffffff
+          font-family: $Montserrat
+          font-size: 15px
+          font-weight: 400
+          line-height: 20.45px
+          text-transform: uppercase
+          padding: 30px
+      .priceCard
+          transition: 0.5s
+          height: 457px
+          background: rgba(255,255,255,0.06)
+          margin: 0 auto
+            top: 25px
+          padding-bottom: 48px
+
+          h5
+            color: #ffffff
+            font-family: $Montserrat
+            font-size: 24px
+            text-transform: uppercase
+            background: rgba(255,255,255,0.06)
+            width: 100%
+            height: 100px
+            padding-top: 35px
+
+      h2
+        margin-top: 35px
+      p
+        opacity: 0.3
+        color: #ffffff
+        font-family: $Montserrat
+        font-size: 14px
+        text-transform: uppercase
+      .line
+        width: 60px
+        height: 5px
+        background-color: #8d81ac
+        margin: 0 auto
+          top: 38px
+      h4
+        color: #ffffff
+        font-family: $Montserrat
+        font-size: 16px
+        font-weight: 400
+        margin: 0 auto
+          top: 30px
+          left: 20px
+          right: 20px
+        line-height: 28px
+      h6
+        opacity: 0.8
+        color: #a291a5
+        font-family: $pro
+        font-size: 14px
+        font-weight: 400
+        line-height: 21px
+        margin-top: 130px
+
+
+
+
+
+
+@media only screen and (max-device-width: 1199px)
+  .priceCard
+    width: 245px
+
+.priceCard
+  &:hover
+    transform: scale(1.1)
+    background: rgba(0, 0, 0, 0.06)
+    h5
+      background: rgba(0, 0, 0, 0.06)
+
+
+
